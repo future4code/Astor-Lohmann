@@ -109,6 +109,12 @@ div:last-child {
 
 table {
     width: 60%;
+    font-weight: bold;
+}
+
+table p {
+    font-weight: bold;
+    font-size: 15px;
 }
 
 td button {
@@ -125,7 +131,6 @@ td button:hover {
 .container-do-search {
     margin-top: 20px;
     height: 100px;
-    font-weight: bold;
 }
 
 .container-do-search input {
