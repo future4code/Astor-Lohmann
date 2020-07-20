@@ -121,6 +121,7 @@ td button {
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+    font-weight: bold;
 }
 
 
@@ -136,4 +137,8 @@ td button {
 
 #back-button:hover {
     background-color: #635a3d
+}
+
+#jeans {
+    background-color: white;
 }
