@@ -110,6 +110,7 @@ div:last-child {
 table {
     width: 60%;
     font-weight: bold;
+    align-items: center;
 }
 
 table p {
@@ -140,7 +141,14 @@ td button:hover {
     border-width: 3px;
 }
 
+.container-tabela {
+    text-align: center;
+    margin-left: 400px;
+}
 
+.container-voltar {
+    text-align: center;
+}
 
 #back-button {
     background-color: white;
