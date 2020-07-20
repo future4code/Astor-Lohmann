@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.meio {
+    display:flex;
+
+}
+
+.meio img{
+    width: 100%;
+    height: 510px;
+}
+
+.navegacao {
+    list-style: none;
+    max-height: 50%; 
+}
+
+.link{
+    display: block;
+    padding: 30px 5px;
+    background-color:#666565
+ }
+
+ .link:hover {
+    background-color:#fcfcfc
+ }
