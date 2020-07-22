@@ -3,44 +3,110 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
-div {
-    border: 1px solid black;
+div { border: 1px solid black;
 }
 
 #first-block {
     background-color: red;
-    height: 100px;
+    height: 100px;  
 }
 
 .blue-block {
     background-color: blue;
+    height: 100px;;
+    width: 400px;
 }
 
 .yellow-block {
     background-color: yellow;
+    height: 100px;;
+    width: 400px;
 }
 
 .green-block {
     background-color: green;
+    height: 100px;
+    width: 400px;
 }
 
 .black-block {
     background-color: black;
+    height: 400px;
+    width: 48%;
     color: white;
 }
 
 .white-block {
     background-color: white;
+    height: 100px;
+    width: 400px;
 }
 
 #main-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 
-#first-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    height: 100px;
+@media (max-width: 1298px) {
+    .blue-block {
+        width: 48%;
+    }
+    
+    .yellow-block {
+        width: 48%;
+    }
+    
+    .green-block {
+        width: 98%;
+    }
+
+    .white-block{
+        width: 48%;
+    }
+    #white-block {
+        width: 98%;
+    }
+}
+
+@media (max-width: 900px) {
+    .blue-block {
+        width: 98%;
+    }
+    
+    .yellow-block {
+        width: 98%;
+    } 
+
+    .white-block{
+        width: 98%;
+    }
+
+    .black-block {
+        width: 98%;
+    }
 }
