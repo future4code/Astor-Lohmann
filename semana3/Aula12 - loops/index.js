@@ -22,11 +22,19 @@
 // 	}
 
 // 3c.
+// const lista = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+// const lista2 = []
+// for (let numero of lista) {
+//   if (numero%2 === 0) {
+//     lista2.push(numero)
+//   }
+// }
+// console.log(lista2)
+
+//3d.
 const lista = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
-let numero 
-for (let numero of lista; ) {
-    if (numero = numero%2) {
-  
-        console.log(numero)
-	}
-}
+const lista2 = []
+for (let i = 0; i < lista.length; i++) {
+      lista2.push('O elemento do índex' + i + é' 'o  lista2[i]')
+  }
+  console.log(lista2)
