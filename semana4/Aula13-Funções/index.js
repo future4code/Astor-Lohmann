@@ -1,0 +1,5 @@
+// RESPOSTAS EXERCICIOS DE INTERPRETAÇÃO CÓDIGO:
+
+
+// 1a. Irá retornar: 5 50
+// 1b. 
