@@ -1,32 +1,12 @@
 function addTarefa(){
-    const pegarTarefa = document.getElementById("tarefa").value
-    let tarefa =
+    const pegarTarefa = document.getElementById("tarefa")
+    let tarefa = pegarTarefa.value
    
-    const semana = document.getElementById("dias-semana").value
-   
+    const semana = document.getElementById("dias-semana")
+    let diaSemana = semana.value.toLowerCase()
 
-
-    
-console.log(tarefa);
-console.log(semana)
-
-
-
-
+    const addString = document.getElementById(`${diaSemana}`)
+    addString.innerHTML += `<p>${tarefa}</p>`
+    pegarTarefa.value = ""
 }
-//    switch(diaSemana) {
-//        case "domingo":
-//         tarefa.innerHTML += `<p>${tarefa}</p>`
-//    }
-//    switch (catejogo) {
-//                     case "1":
-//                         if (tipoJogo === "DO") {
-//                             console.log("Valor do ingresso: " + precoSF1)
-//                             console.log("Valor total: " + precoSF1*qntIngressos)
-//                         } else if (tipoJogo === "IN") {
-//                             console.log("Valor do ingresso:US$ " + precoSF1/dolar)
-//                             console.log("Valor total:US$ " + (precoSF1*qntIngressos)/dolar)
-//                         }
-//                         break
-    
-// }
+
