@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Controlador de Despesas</title>
+</head>
+<body>
+    <h1>Controlador de Despesas</h1>
+    <h2>Cadastrar Despesa</h2>
+    <section id="controlador-despesa">
+  
+        <form action="">
+            <label for="valor">VALOR</label>
+            <input type="number" id="valor">
+
+            
+            <div class="custom-select">
+              <select id="tipo">
+                <option value="">Selecione a despesa:</option>
+                <option value="Alimentação">Alimentação</option>
+                <option value="Saúde">Saúde</option>
+                <option value="Educação">Educação</option>
+              </select>
+            </div>
+            
+           
+            
+
+            <label for="descrição">DESCRIÇÃO</label>
+            <textarea id="descrição"></textarea>
+        </form>
+        <button class="buttonCadastrar" onclick="addDespesa()">Cadastrar Despesa</button>
+    </section>
+
+    <section id="lista-de-despesas">
+        
+    </section>
+</body>
+</html>
