@@ -60,30 +60,31 @@
 //         case (a === b && a === c && b === c):
 //             alert("o trigulo é Equilátero");
 //     break;
-//     case (a === b && a !=== c && b !=== c):
+//     case (a === b && a !== c && b !== c):
 //         alert("o trigulo é Isósceles");
 //         break;
-//     case (a !=== b && a !=== c && b !=== c):
+//     case (a !== b && a !== c && b !== c):
 //         alert("o trigulo é Escaleno");
 //         break;
         
 //     }
 // }
 
+
 // 5.
 
-let number1 = 15
-let number2 = 30
 
-function verificaNumeros (number1 , number2){
-    function numeroMaior( number1, number2 ){
-        if ( number1 > number2 ) {
-       console.log("O " number1 " é maior")
-    }if else (number1 < number2) {
-        console.log("O " number2 "é maior")
-    }
-}
+// function verificaNumeros (number1 , number2){
+    
+//     function numeroMaior(number1, number2){
+//         if (number1 > number2) {
+//        console.log(number1 " é maior")
+//     } if else (number1 < number2) {
+//         console.log("O " number2 "é maior")
+//     }
+// }
 
-}
+// }
 
-verificaNumeros
+
+// verificaNumeros (30 , 15)
