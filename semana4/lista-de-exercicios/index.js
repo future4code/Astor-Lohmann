@@ -74,17 +74,25 @@
 // 5.
 
 
-// function verificaNumeros (number1 , number2){
-    
-//     function numeroMaior(number1, number2){
-//         if (number1 > number2) {
-//        console.log(number1 " é maior")
-//     } if else (number1 < number2) {
-//         console.log("O " number2 "é maior")
-//     }
-// }
 
-// }
+function verificaNumero(number1 , number2){
+    function verificaMaior() {
+        if (number1 > number2){
+            let resultado = Number(number1)
+            console.log(resultado + " é maior")
+        }else {
+            let resultado = Number(number2)
+            console.log(resultado + " é maior")
+        }
+    }
+    verificaMaior()
 
+    function verificaDivisor() {
+        if (number1%number2 === 0){
+            let resultado = Number(number1)
+            console.log(resultado)
+        }
+    }
+}
 
-// verificaNumeros (30 , 15)
+verificaNumero(15 , 30)
