@@ -10,6 +10,7 @@ import LoginPage from '../screens/LoginPage'
 const Router = () => {
     return (
       <BrowserRouter>
+      <p>Header</p>
         <Switch>
           <Route exact path="/">
             <HomePage />
