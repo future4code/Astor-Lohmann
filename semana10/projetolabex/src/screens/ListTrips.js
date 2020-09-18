@@ -10,7 +10,7 @@ const ListTrips = () => {
 
         try {
             const response = await axios
-            .get("https://us-central1-labenu-apis.cloudfunctions.net/labeX/:aluno/trips")
+            .get(baseUrl)
             setTripList(response.data.trips)
             console.log(response)
         }
@@ -22,13 +22,6 @@ const ListTrips = () => {
     useEffect(() =>{
         getTripList() }, [])
     
-    // const showTripList = () => {
-    //     tripList.map(item) {
-    //         return (
-
-    //         )
-    //     }
-    // }
     return(
         <div>
             tripList
