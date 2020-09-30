@@ -1,32 +1,31 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import LoginPage from '../screens/LoginPage/LoginPage'
-import SignupPage from '../screens/SignupPage'
+import SignupPage from '../screens/SignupPage/SignupPage'
 import PostPage from '../screens/PostPage'
 import FeedPage from '../screens/FeedPage'
 
-const Router = () => {
+const PageRouter = () => {
 
     return (
-        
-            <Switch>
-                <Route exact path={'/login'}>
+       <Router>
+           <Switch>
+               <Route exact path='/login'>
                     <LoginPage />
-                </Route>
-                <Route exact path={'/signup'}>
+               </Route>
+               <Route exact path='/signup'>
                     <SignupPage />
-                </Route>
-                <Route exact path={'/post'}>
-                    <PostPage />
-                </Route>
-                <Route exact path={'/feed'}>
+               </Route>
+               <Route exact path='/post'>
+                    <PostPage />    
+               </Route>
+               <Route exact path='/feed'>
                     <FeedPage />
-                </Route>
-
-            </Switch>
-
-
+               </Route>
+           </Switch>
+       </Router>
     )
 }
 
-export default Router
+export default PageRouter

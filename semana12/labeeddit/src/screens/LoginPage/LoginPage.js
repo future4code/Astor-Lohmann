@@ -2,18 +2,15 @@ import React from 'react'
 import Button from '@material-ui/core/Button'
 import { useHistory } from 'react-router'
 import LoginForm from './LoginForm'
-import useUnprotectedPage from '../../hooks/useUnprotectedPage'
+import { LoginContainer } from './styled'
 
-
-const LoginPage = () => {
-    const history = useHistory();
+const LoginPage = () => {    
     
-    
-    
-    return(
-        <div>
+    return (
+        <LoginContainer>
+            <h1>Labeddit</h1>
             <LoginForm />
-        </div>
+        </LoginContainer>
     )
 }
 
